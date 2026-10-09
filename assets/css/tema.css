@@ -1,0 +1,12 @@
+*{
+    background-color: blueviolet;
+
+}
+
+h1{
+    color: aqua;
+}
+
+h1:hover{
+    color: cornflowerblue;
+}
