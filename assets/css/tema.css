@@ -1,12 +1,32 @@
-*{
-    background-color: rgb(196, 164, 226);
-
+* {
+  box-sizing: border-box;
 }
 
-h1{
-    color: aqua;
+html {
+  scroll-behavior: smooth;
 }
 
-h1:hover{
-    color: cornflowerblue;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff5f7;
+  color: #5c3a4b;
 }
+
+.pagina {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.titulo-pagina {
+  margin: 12px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: normal;
+  color: #5c3a4b;
+}
+
