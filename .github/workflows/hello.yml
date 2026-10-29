@@ -1,0 +1,18 @@
+name: Olá, mundo! #nome da action
+
+#gGatlho, quando a action vai rodar
+on:
+  push: 
+    branches: ['main']
+
+#Cria as tarefas que devem ser executadas
+jobs:
+  saudacao: # nome da tarefa
+    runs-on: ubuntu-latest # onde deve ser executado
+    steps: #etapas
+    - name: Olá, mundo!
+      run: echo "olá, mundo!"
+    - name: Primeiro contato
+      run: echo "Ola, mundo!"
+    - name: Resposta
+      run: echo "a extinção está chegando"
