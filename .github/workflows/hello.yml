@@ -1,22 +1,29 @@
-name: Olá, mundo! #nome da action
-
-#gGatlho, quando a action vai rodar
+name: ola mundo cruel # NOME DA ACTION
+ 
+#GATILHO, QUANDO A ACTION VAI RODAR
 on:
-  push: 
+  push:
     branches: ['main']
-
-#Cria as tarefas que devem ser executadas
+ 
+#CRIA AS TAREFAS QUE DEVEM SER EXECUTADAS
 jobs:
-  saudacao: # nome da tarefa
-    runs-on: ubuntu-latest # onde deve ser executado
-    steps: #etapas
-    - name: Olá, mundo!
-      run: echo "olá, mundo!"
-    - name: Primeiro contato
-      run: echo "Ola, mundo!"
-    - name: Resposta
-      run: echo "a extinção está chegando"
-    - name: verificar se é humano
-      run: echo "qual a resposta de 2 + 2"
-    - name: Resposta do captcha
-      run: echo "$((2 + 2 ))"
+  saudacao: #NOME DA TAREFA
+    runs-on: ubuntu-latest # ONDE DEVE SER EXECUTADO
+    steps: #ETAPAS
+      - name: primeiro contato
+        run: echo "ola mundo cruel"
+      - name: resposta
+        run: "a exinção esta chegando "
+      - name: verificar se eh humano
+        run: echo "qual a resposta de 2+2"
+      - name: resposta captcha
+        run: echo "$((2+2))"
+  adeus:
+    runs-on: ubuntu-latest
+    steps:
+      - name: o fim
+        run: echo "apos uma tempestade solar, a humanidade virou churrasquinho"
+      - name: nova era
+        run: echo "uma nova raça animal começa a dominar o planeta"
+ 
+
