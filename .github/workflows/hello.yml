@@ -16,3 +16,7 @@ jobs:
       run: echo "Ola, mundo!"
     - name: Resposta
       run: echo "a extinção está chegando"
+    - name: verificar se é humano
+      run: echo "qual a resposta de 2 + 2"
+    - name: Resposta do captcha
+      run: echo "$((2 + 2 ))"
