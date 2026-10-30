@@ -5,7 +5,7 @@ on:
   type: [opened, synchronize, reopened]
 
 jobs:
-  jeste:
+  jest:
     namoe: jest
     runs-on: ubuntu-latest
 
